@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="UDPChatWF.exe" version="1.0.0.0" publicKeyToken="7c2e9ee4f5806421" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="UDPChatWF" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="UDPChatWF.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 清单选项
+         若想要更改 Windows 用户帐户控制级别，请
+         将 requestedExecutionLevel 节点替换为下述某项。
+
+       <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+       <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+       <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+        若想要使用文件和注册表虚拟化以实现向后
+        兼容，请删除 requestedExecutionLevel 节点。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="UDPChatWF.exe" size="14328">
+      <assemblyIdentity name="UDPChatWF" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>rBhAtopwSvX7ik464BjSZCy/8UMFCvSNHKH+TNNv0cc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="UDPChatWF.exe.config" size="186">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>1NgAxCSw4ibTXzWVy7D6Rw60Qih4Dn37KvGhG5Ora/s=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=BD-DESKMINI\Administrator" issuerKeyHash="ce5679d9269f59866dd83cfc8192f24d738107b5" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>/37NTKyDAzW4dTR7TUj4JiF4po5LqoSRK/zHrhVj4ro=</DigestValue></Reference></SignedInfo><SignatureValue>Tl6+QUVoyZPsIBBPOoDWSYJHDJ6BfNNrap8+RPK5c0Osxd6D8mj4xe3WJgNeR8yaqy/uw0Poe4wKwXQC4qm5doyHvhbN9itJI5ad7IEgIDzCzBWP6BcVQhl8UFbhJgI+aQdodlRH00gyc1ew6UoOb02APa6FAU0ihInC1QkHxZc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>pSd1YL2O3frl1y2uCpnhnrwVFSHkSzh4ql9QzbPOSE/wJdowmD0HtXk21tsqrrDYqDB35zyI055AVh9R56f0lbAnnoxfxnlCIbyvMOPcd+daS9XG54Jar/msUQMMtHJJ7qfKgi/CcTDAjBpBZDx7awiELWyxuW971xyfvoE74bk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="bae26315aec7fc2b9184aa4b8ea6782126f8484d7b3475b8350383ac4ccd7eff" Description="" Url=""><as:assemblyIdentity name="UDPChatWF.exe" version="1.0.0.0" publicKeyToken="7c2e9ee4f5806421" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=BD-DESKMINI\Administrator</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>po9DOwxAr7tounknzT6WVJOUCBFu55mqJA/aH2BHghM=</DigestValue></Reference></SignedInfo><SignatureValue>W+JlqHnC4bAZOEzjegAFeDjpyDZGLiS3IwUCbKgE44Y2MArj2AK5NqudacOmIy3tGVEIqQI4aiccWIBuQPM4c9N8eclBx9NYzWqADuNmYCbq1F22aF1YG8Hd/Zykb3bkKiuayV69OZRYo7xVrMAhszlHIbR1BwtM1gP20fmR1YA=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>pSd1YL2O3frl1y2uCpnhnrwVFSHkSzh4ql9QzbPOSE/wJdowmD0HtXk21tsqrrDYqDB35zyI055AVh9R56f0lbAnnoxfxnlCIbyvMOPcd+daS9XG54Jar/msUQMMtHJJ7qfKgi/CcTDAjBpBZDx7awiELWyxuW971xyfvoE74bk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB/TCCAWagAwIBAgIQHRX0IzZxiIpP4oJWGs6e8DANBgkqhkiG9w0BAQsFADA9MTswOQYDVQQDHjIAQgBEAC0ARABFAFMASwBNAEkATgBJAFwAQQBkAG0AaQBuAGkAcwB0AHIAYQB0AG8AcjAeFw0yMTA4MTAwNjA1MjFaFw0yMjA4MTAxMjA1MjFaMD0xOzA5BgNVBAMeMgBCAEQALQBEAEUAUwBLAE0ASQBOAEkAXABBAGQAbQBpAG4AaQBzAHQAcgBhAHQAbwByMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQClJ3VgvY7d+uXXLa4KmeGevBUVIeRLOHiqX1DNs85IT/Al2jCYPQe1eTbW2yqusNioMHfnPIjTnkBWH1Hnp/SVsCeejF/GeUIhvK8w49x351pL1cbnglqv+axRAwy0cknup8qCL8JxMMCMGkFkPHtrCIQtbLG5b3vXHJ++gTvhuQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAA5AWI1qppcTR+1im5+wXsX3dg3uXGezOjQOGDkYwke1RpNd/HeG5iOZmnyI9mk+6+IEtvCRGSSp5S7cS2av35TjV4zL7IOcgfdCnL16HVdZJFCBEVeRl+aTXYLI6kRcD1F6wplJ+l9vPlynk6cSsY5TjtA3mL0ccIN0m2/Sef1c</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
